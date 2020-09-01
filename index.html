@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Ecuaciones de Segundo Grado DOM</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary">
+
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <form class="bg-dark text-light p-5 rounded">
+                    <h1>Ecuaciones de Segundo Grado</h1>
+                    <div class="form-group">
+                        <label for="a">Ingresa el término a:</label>
+                        <input type="number" class="form-control" id="a">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="b">Ingresa el término b:</label>
+                        <input type="number" class="form-control" id="b">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="c">Ingresa el término c:</label>
+                        <input type="number" class="form-control" id="c">
+                    </div>
+
+                    <div class="form-group pt-2">
+                        <button type="button" class="btn btn-primary btn-block" onclick="ecuaciones()">Calcular</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="bg-dark p-5 text-light rounded">
+                    <h1>Solución de la Ecuación</h1>
+
+                    <p id="valores" class="d-none">Obtenemos los términos:</p>
+
+                    <div id="terminos">
+                    </div>
+
+                    <p id="instrucciones" class="d-none">Sustituimos la ecuación:</p>
+
+                    <div id="solucion">
+                    </div>
+
+                    <p class="d-none" id="respuesta">Respuesta:</p>
+
+                    <div id="resultados">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="ecuaciones.js"></script>
+</body>
+
+</html>
