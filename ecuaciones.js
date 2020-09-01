@@ -6,7 +6,7 @@ function instrucciones() {
 
 function terminos(a, b, c) {
     document.getElementById('terminos').innerHTML = '<h2 class="bg-light text-dark p-1 rounded">a = ' + a + ', b = ' + b + ', c = ' + c + '</h2>';
-    document.getElementById('solucion').innerHTML = '<h4>x = (-(' + b + ') &#177 &#8730 (' + b + ') &#178 - (4) (' + a + ') (' + c + ')) / 2 (' + a + ')(' + c + ')<h4>';
+    document.getElementById('solucion').innerHTML = '<h4>x = (-(' + b + ') &#177 &#8730 (' + b + ') &#178 - (4) (' + a + ') (' + c + ')) / 2 (' + a + ')<h4>';
 }
 
 function ecuaciones() {
